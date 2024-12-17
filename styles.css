@@ -1,0 +1,95 @@
+/* Mise en forme générale */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo{
+    text-align: start !important;
+    color: white;
+    font-weight: 900;
+    font-size: 100px;
+    position: absolute;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.365);
+    color: white;
+    padding: 20px 0;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.container span{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #777;
+    font-size: 46 px;
+}
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 45px;
+    max: width 90px; ;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+}
